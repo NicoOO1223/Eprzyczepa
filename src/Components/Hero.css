@@ -1,0 +1,16 @@
+.hero-container {
+    background: url('/public/Img/cd6e848e-eb2f-40b4-bf7a-0c69907ab351.jpeg') center center/cover
+    no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center;
+}
+
+.hero-container > h1 {
+    font-size: 6rem;
+    margin-bottom: 400px;
+}
