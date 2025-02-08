@@ -23,7 +23,7 @@
   .camping-house {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     background-color: #fff;
     padding: 1.5rem;
     border-radius: 8px;
@@ -36,9 +36,10 @@
   }
   
   .camping-house h2 {
-    font-size: 1.8rem;
+    font-size: 3rem;
     color: #00c288;
     margin-bottom: 1rem;
+    
   }
   
   .camping-house p {

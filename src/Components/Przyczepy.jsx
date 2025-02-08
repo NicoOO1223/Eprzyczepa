@@ -3,7 +3,7 @@ import './Przyczepy.css';
 
 function Przyczepy() {
   return (
-    <div className="camping-container">
+    <div className="camping-container" id="przyczepy">
       <h1>Nasze Przyczepy Kempingowe</h1>
       <div className="camping-houses">
         <div className="camping-house">

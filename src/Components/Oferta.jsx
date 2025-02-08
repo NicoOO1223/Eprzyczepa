@@ -3,38 +3,30 @@ import './Oferta.css';
 
 function Oferta() {
   return (
-    <div className="oferta">
+    <div className="oferta" id="oferta">
       <h1>Wynajem przyczep kempingowych</h1>
       <p>
-        Atrakcyjne miejsce na spędzenie urlopu bądź wakacji? Ciche i spokojne otoczenia do wypoczynku? 
-        Przechadzki wieczorami po mokrym piasku i relaks wśród szumu morza? 
-        To u nas! <br/>
-        Oferujemy Państwu tanie i atrakcyjnie wyposażone przyczepy kempingowe!
+      Marzysz o wakacjach pełnych luzu, blisko natury i z widokiem na morze? Wynajmij naszą przyczepę kempingową na Chałupach i poczuj wakacyjny klimat, jakiego szukasz!
       </p>
       <div className="items-container">
   <div className="item">
-    <h2>Oferta</h2>
+  <img src='/Img/kalendarz.png'></img>
     <p>
-      Nasze przyczepy kempingowe są w pełni wyposażone, aby zapewnić Państwu 
-      komfort podczas wypoczynku. Oferujemy różnorodne modele dostosowane do 
-      potrzeb zarówno rodzin, jak i par szukających przygód.
+    Przyczepy można wynająć przez całe wakacje i choc jesteśmy na miejscu cały sezon, 
+    warto zarezerwować wcześniej, bo przyczepy szybko znikają.
     </p>
   </div>
   <div className="item">
-    <h2>Ceny</h2>
+  <img src='/Img/hajs.png'></img>
     <p>
-      Ceny zaczynają się już od x zł za dobę. Oferujemy elastyczne pakiety 
-      dostosowane do długości pobytu, a przy wynajmie na dłużej przygotowaliśmy 
-      atrakcyjne zniżki.
+      Ceny zaczynają się już od 230 zł za dobę. 
+      Zadzwoń do nas, a dobierzemy ofertę idealnie dopasowaną do Twoich potrzeb i budżetu!
     </p>
   </div>
   <div className="item">
-    <h2>Lokalizacja</h2>
+  <img src='/Img/lokalizacja.png'></img>
     <p>
-      Nasze przyczepy znajdują się na Chalupach, malowniczej miejscowosci nad baltykiem, w 
-      otoczeniu lasów i zaledwie x metrów od piaszczystej plaży. To idealne 
-      miejsce na relaks z dala od zgiełku miasta.
-    </p>
+    Przyczepy znajdują się na Albatros 5,5,<br/> w otoczeniu licznych udogodnień jak sklepy, restauracje, szkółki oraz wypożyczalnie! </p>
   </div>
 </div>
 </div>

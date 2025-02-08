@@ -23,6 +23,12 @@
     max-width: 850px;
 }
 
+.oferta img {
+    display: block; 
+    max-width: 200px;
+    margin: 0 auto; 
+}
+
 .items-container {
     display: flex;
     flex-direction: row;
