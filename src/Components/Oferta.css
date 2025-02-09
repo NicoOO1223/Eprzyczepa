@@ -3,9 +3,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: rgb(43, 43, 43);
     text-align: center;
+}
+
+.oferta-container {
+    z-index: 20;
+    margin-top: -100px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 95%;
+    box-shadow: 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    border-top-left-radius: 10%;  /* Curves the top-left corner */
+    border-top-right-radius: 10%; /* Curves the top-right corner */
+    border-bottom-left-radius: 0; /* Keeps the bottom-left corner square */
+    border-bottom-right-radius: 0; /* Keeps the bottom-right corner square */
+    padding-bottom: 80px;
 }
 
 .oferta h1 {
@@ -17,10 +32,11 @@
 
 .oferta p {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin: 0 auto 2rem auto; /* Center the paragraph and give it bottom margin */
     line-height: 1.5;
     color: #555;
     max-width: 850px;
+    text-align: center; /* Ensure text is centered within the paragraph */
 }
 
 .oferta img {
@@ -45,6 +61,8 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
+    position: relative; /* To make the text appear over the image */
+    overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -53,13 +71,46 @@
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
+.item img {
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.item h2, .item p {
+    opacity: 0; /* Hide text initially */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Horizontally center text */
+    color: #666;
+    transition: opacity 0.3s ease;
+}
+
 .item h2 {
+    top: 10%; /* Position h2 at the top */
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #00c288;
+    color: black;
 }
 
 .item p {
+    top: 30%; /* Position paragraph below the h2 */
     font-size: 1rem;
-    color: #666;
+    max-width: 80%; /* Adjust max-width to ensure it doesn’t stretch too much */
+    margin: 0 auto;
+    text-align: center; /* Center text inside the paragraph */
+}
+
+.item:hover img {
+    opacity: 0; /* Hide the image on hover */
+}
+
+.item:hover h2 {
+    font-size: 2rem;
+    opacity: 1; 
+    color: black; /* Optional: Change text color on hover */
+}
+
+.item:hover p {
+    opacity: 1; /* Show text on hover */
+    color: rgb(79, 78, 78) /* Optional: Change text color on hover */
 }

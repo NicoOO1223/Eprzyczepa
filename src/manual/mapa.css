@@ -1,0 +1,26 @@
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+}
+.map-container {
+    margin-top: 40px  auto;
+    text-align: center;
+    padding: 20px;
+    background-image: url('/public/Img/coast-blacked.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+    width: 95%;
+    box-shadow: 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.location-map {
+    height: 90%;
+    width: 90%;
+    min-height: 600px;
+}

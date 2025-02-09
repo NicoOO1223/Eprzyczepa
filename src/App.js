@@ -6,6 +6,10 @@ import Oferta from './Components/Oferta';
 import Przyczepy from './Components/Przyczepy';
 import Cennik from './Components/Cennik';
 import Kontakt from './Components/Kontakt';
+import Cards from './Components/Cards';
+import Karty from './manual/Karty';
+import Mapa from './manual/mapa';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,9 +17,9 @@ function App() {
     <NavBar />
     <Hero />
     <Oferta />
-    <Przyczepy />
-    <Cennik />
-    <Kontakt />
+    <Mapa />
+    <Karty />
+    <Footer />
     </>
   )
 }

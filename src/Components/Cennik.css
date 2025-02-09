@@ -27,7 +27,7 @@
 
 .cennik-container {
   position: relative;
-  width: 90%; /* Pricing section spans 90% of the image */
+  width: 90%; 
   max-width: 1000px;
   background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
   padding: 2rem;
