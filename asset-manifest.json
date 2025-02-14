@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1643887.css",
+    "main.js": "/static/js/main.52f29999.js",
+    "static/media/coast-blacked.jpg": "/static/media/coast-blacked.6ef2824f47c2b07ea8a5.jpg",
+    "index.html": "/index.html",
+    "main.a1643887.css.map": "/static/css/main.a1643887.css.map",
+    "main.52f29999.js.map": "/static/js/main.52f29999.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1643887.css",
+    "static/js/main.52f29999.js"
+  ]
+}
