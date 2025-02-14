@@ -32,11 +32,11 @@
 
 .oferta p {
     font-size: 1.2rem;
-    margin: 0 auto 2rem auto; /* Center the paragraph and give it bottom margin */
+    margin: 0 auto 2rem auto; 
     line-height: 1.5;
     color: #555;
     max-width: 850px;
-    text-align: center; /* Ensure text is centered within the paragraph */
+    text-align: center; 
 }
 
 .oferta img {
@@ -72,13 +72,14 @@
 }
 
 .item img {
-    width: 100%;
     transition: opacity 0.3s ease;
+    max-height: 150px;
 }
 
 .item h2, .item p {
     opacity: 0; /* Hide text initially */
     position: absolute;
+    width: 300px;
     left: 50%;
     transform: translateX(-50%); /* Horizontally center text */
     color: #666;
@@ -87,7 +88,7 @@
 
 .item h2 {
     top: 10%; /* Position h2 at the top */
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     color: black;
 }
@@ -105,7 +106,6 @@
 }
 
 .item:hover h2 {
-    font-size: 2rem;
     opacity: 1; 
     color: black; /* Optional: Change text color on hover */
 }
