@@ -13,22 +13,22 @@ function Oferta() {
       <div className="items-container">
         
   <div className="item">
-  <img src='/images/kalendarz-b.png'></img>
+  <img src={`${process.env.PUBLIC_URL}/images/kalendarz-b.png`} alt="Calendar Icon" />
   <h2>Kiedy?</h2>
     <p>
     Przyczepy można wynająć przez całe wakacje, warto jednak zarezerwować z wyprzedzeniem, dostepnosc szybko maleje.
     </p>
   </div>
   <div className="item">
-  <img src='/images/hajs-g.png'></img>
+  <img src={`${process.env.PUBLIC_URL}/images/hajs-g.png`} alt="Calendar Icon" />
   <h2>Za ile?</h2>
     <p>
       Ceny zaczynają się już od 230 zł za dobę. 
       Zadzwoń do nas, a dobierzemy ofertę idealnie dopasowaną do Twoich potrzeb i budżetu!
     </p>
   </div>
-  <div className="item">
-  <img src='/Img/Loc.png'></img>
+  <div className="item">    
+  <img src={`${process.env.PUBLIC_URL}/images/Loc.png`} alt="Calendar Icon" />
   <h2>Gdzie?</h2>
     <p>
     Przyczepy znajdują się na Albatros 5,5,<br/> w otoczeniu licznych udogodnień jak sklepy, restauracje, szkółki oraz wypożyczalnie! </p>
