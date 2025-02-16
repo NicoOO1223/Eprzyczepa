@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/Eprzyczepa/static/css/main.a578b615.css",
-    "main.js": "/Eprzyczepa/static/js/main.4a8e90f0.js",
+    "main.css": "/Eprzyczepa/static/css/main.b90a9f44.css",
+    "main.js": "/Eprzyczepa/static/js/main.fb94d7c0.js",
+    "static/media/adria.jpg": "/Eprzyczepa/static/media/adria.28874b92f5e4e88aa7d6.jpg",
+    "static/media/2b.jpg": "/Eprzyczepa/static/media/2b.e1cf64d4356515ad1018.jpg",
+    "static/media/wilk.jpeg": "/Eprzyczepa/static/media/wilk.7e4b79dba3b81b652d7d.jpeg",
     "static/media/coast-blacked.jpg": "/Eprzyczepa/static/media/coast-blacked.6ef2824f47c2b07ea8a5.jpg",
     "index.html": "/Eprzyczepa/index.html",
-    "main.a578b615.css.map": "/Eprzyczepa/static/css/main.a578b615.css.map",
-    "main.4a8e90f0.js.map": "/Eprzyczepa/static/js/main.4a8e90f0.js.map"
+    "main.b90a9f44.css.map": "/Eprzyczepa/static/css/main.b90a9f44.css.map",
+    "main.fb94d7c0.js.map": "/Eprzyczepa/static/js/main.fb94d7c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a578b615.css",
-    "static/js/main.4a8e90f0.js"
+    "static/css/main.b90a9f44.css",
+    "static/js/main.fb94d7c0.js"
   ]
 }
