@@ -4,15 +4,16 @@ import 'swiper/css/pagination';
 import './Karty.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
-
+import img1 from '../images/wilk.jpeg'
+import img2 from '../images/adria.jpg'
 function Karty() {
     const swiperRefs = useRef([]);
 
     const campers = [
-        { id: 1, name: "Przyczepa Wilk", images: ["/images/wilk.jpeg", "/Img/adria.jpg"] },
-        { id: 2, name: "Przyczepa Adria", images: ["/images/wilk.jpeg", "/Img/adria.jpg"] },
-        { id: 3, name: "Przyczepa Tabbert", images: ["/images/wilk.jpeg", "/Img/adria.jpg"] },
-        { id: 4, name: "Przyczepa Hobby", images: ["/images/wilk.jpeg", "/Img/adria.jpg"] },
+        { id: 1, name: "Przyczepa Wilk", images: [img1, img2] },
+        { id: 2, name: "Przyczepa Adria", images: [img1, img2] },
+        { id: 3, name: "Przyczepa Tabbert", images: [img1, img2] },
+        { id: 4, name: "Przyczepa Hobby", images: [img1, img2] },
     ];
 
     return (
