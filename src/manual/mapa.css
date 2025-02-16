@@ -10,7 +10,8 @@
     margin-top: 40px  auto;
     text-align: center;
     padding: 20px;
-    background-image: url('/public/Img/coast-blacked.jpg');
+    
+    background-image: url('../Img/coast-blacked.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 

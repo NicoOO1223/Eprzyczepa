@@ -1,5 +1,6 @@
 import React from 'react'
 import './Cennik.css';
+import img from '../Img/Cennik.png'
 
 function Cennik() {
   return (
@@ -7,7 +8,7 @@ function Cennik() {
       <div className='cennik-container'>
         <h1 className='header'>Cennik</h1>
         <div className='line'></div>
-        <img src='/Img/Cennik.png' class='cennik-background' alt='Cennik'></img>
+        <img src={img} class='cennik-background' alt='Cennik'></img>
         <div className='line'></div>
         
 

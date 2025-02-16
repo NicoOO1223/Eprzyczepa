@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; 
+    background-image: url('../Img/2b.jpg');
   }
 
   .section h1 {

@@ -1,5 +1,8 @@
 import React from 'react';
 import './Footer.css';
+import img1 from '../Img/Loc-r.png'
+import img2 from '../Img/Mail-b.png'
+import img3 from '../Img/Phone-g.png'
 
 function Footer() {
   return (
@@ -24,15 +27,15 @@ function Footer() {
           <h2>Skontaktuj się z nami!</h2>
           <div className="contact-details">
             <div className="contact-item">
-              <img src="/Img/Loc-r.png" alt="Location Icon" />
+              <img src={img1} alt="Location Icon" />
               <p><strong>Address:</strong> 123 Street Name, City, Country</p>
             </div>
             <div className="contact-item">
-              <img src="/Img/Mail-b.png" alt="Email Icon" />
+              <img src={img2} alt="Email Icon" />
               <p><strong>Email:</strong> example@email.com</p>
             </div>
             <div className="contact-item">
-              <img src="/Img/Phone-g.png" alt="Phone Icon" />
+              <img src={img3} alt="Phone Icon" />
               <p><strong>Phone:</strong> +48 123 456 789</p>
             </div>
           </div>
