@@ -9,10 +9,10 @@ function Karty() {
     const swiperRefs = useRef([]);
 
     const campers = [
-        { id: 1, name: "Przyczepa Wilk", images: ["/Img/wilk.jpeg", "/Img/adria.jpg"] },
-        { id: 2, name: "Przyczepa Adria", images: ["/Img/wilk.jpeg", "/Img/adria.jpg"] },
-        { id: 3, name: "Przyczepa Tabbert", images: ["/Img/wilk.jpeg", "/Img/adria.jpg"] },
-        { id: 4, name: "Przyczepa Hobby", images: ["/Img/wilk.jpeg", "/Img/adria.jpg"] },
+        { id: 1, name: "Przyczepa Wilk", images: ["/images/wilk.jpeg", "/Img/adria.jpg"] },
+        { id: 2, name: "Przyczepa Adria", images: ["/images/wilk.jpeg", "/Img/adria.jpg"] },
+        { id: 3, name: "Przyczepa Tabbert", images: ["/images/wilk.jpeg", "/Img/adria.jpg"] },
+        { id: 4, name: "Przyczepa Hobby", images: ["/images/wilk.jpeg", "/Img/adria.jpg"] },
     ];
 
     return (
