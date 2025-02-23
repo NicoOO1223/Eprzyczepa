@@ -8,7 +8,7 @@ function Cennik() {
       <div className='cennik-container'>
         <h1 className='header'>Cennik</h1>
         <div className='line'></div>
-        <img src={`${process.env.PUBLIC_URL}/images/Cennik.png`} class='cennik-background' alt='Cennik'></img>
+        <img src={`${process.env.PUBLIC_URL}/images/Cennik.jpg`} class='cennik-background' alt='Cennik'></img>
         <div className='line'></div>
         
 

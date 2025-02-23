@@ -34,20 +34,20 @@ function NavBar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className='navbar-container'>
         <ul className='nav-menu'>
-          <li className='nav-item' onClick={() => scrollToSection('start')}>
+          <li className='nav-item' onClick={() => scrollToSection('hero')}>
             Start
           </li>
           <li className='nav-item' onClick={() => scrollToSection('oferta')}>
             Oferta
           </li>
-          <li className='nav-item' onClick={() => scrollToSection('przyczepy')}>
+          <li className='nav-item' onClick={() => scrollToSection('info')}>
+            O nas
+          </li>
+          <li className='nav-item' onClick={() => scrollToSection('karty')}>
             Przyczepy
           </li>
-          <li className='nav-item' onClick={() => scrollToSection('cennik')}>
+          <li className='nav-item' onClick={() => scrollToSection('kontakt')}>
             Kontakt
-          </li>
-          <li className='nav-item'>
-            Regulamin
           </li>
         </ul>
       </div>
