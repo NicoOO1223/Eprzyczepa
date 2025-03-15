@@ -24,6 +24,18 @@
     width: 100%;
 }
 
+.navbar-logo {
+    height: 60px; 
+    width: auto; 
+    margin-left: 5%; 
+    cursor: pointer;
+    transition: opacity 0.2s ease-out;
+}
+
+.navbar-logo:hover {
+    opacity: 0.8; /* Optional: Add hover effect */
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -51,4 +63,58 @@
 .nav-item:hover {
     background-color: rgba(119, 119, 119, 0.8);
     transition: all 0.2s ease-out;
+}
+
+/* Hamburger menu for mobile */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.nav-menu.open {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.nav-menu.open .nav-item {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex; /* Show hamburger menu icon */
+        margin-right: 30px;
+    }
+
+    .nav-item {
+        border-radius: 0px;
+    }
+    .navbar-logo {
+        align-items: left;
+    }
 }

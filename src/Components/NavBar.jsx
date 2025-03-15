@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './NavBar.css';
+import logo from '../images/Logo.png';
 
 function NavBar() {
-  // State to store whether the page has been scrolled down
   const [scrolled, setScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State to handle mobile menu
 
   // Function to handle scroll event
   const handleScroll = () => {
@@ -14,7 +15,6 @@ function NavBar() {
     }
   };
 
-  // Add scroll event listener when component mounts and clean up when it unmounts
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => {
@@ -22,7 +22,6 @@ function NavBar() {
     };
   }, []);
 
-  // Function to scroll to a specific section
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
@@ -30,25 +29,31 @@ function NavBar() {
     }
   };
 
+  // Function to toggle mobile menu visibility
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen((prev) => !prev);
+  };
+
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className='navbar-container'>
-        <ul className='nav-menu'>
-          <li className='nav-item' onClick={() => scrollToSection('hero')}>
-            Start
-          </li>
-          <li className='nav-item' onClick={() => scrollToSection('oferta')}>
-            Oferta
-          </li>
-          <li className='nav-item' onClick={() => scrollToSection('info')}>
-            O nas
-          </li>
-          <li className='nav-item' onClick={() => scrollToSection('karty')}>
-            Przyczepy
-          </li>
-          <li className='nav-item' onClick={() => scrollToSection('kontakt')}>
-            Kontakt
-          </li>
+        <img
+          src={logo}
+          alt='Logo'
+          className='navbar-logo'
+          onClick={() => scrollToSection('hero')}
+        />
+        <div className='hamburger' onClick={toggleMobileMenu}>
+          <span className='bar'></span>
+          <span className='bar'></span>
+          <span className='bar'></span>
+        </div>
+        <ul className={`nav-menu ${isMobileMenuOpen ? 'open' : ''}`}>
+          <li className='nav-item' onClick={() => scrollToSection('hero')}>Start</li>
+          <li className='nav-item' onClick={() => scrollToSection('oferta')}>Oferta</li>
+          <li className='nav-item' onClick={() => scrollToSection('info')}>O nas</li>
+          <li className='nav-item' onClick={() => scrollToSection('karty')}>Przyczepy</li>
+          <li className='nav-item' onClick={() => scrollToSection('kontakt')}>Kontakt</li>
         </ul>
       </div>
     </nav>

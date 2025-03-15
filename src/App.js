@@ -6,10 +6,9 @@ import Cennik from './manual/Cennik';
 import Kontakt from './Components/Kontakt';
 import Karty from './manual/Karty';
 import Mapa from './manual/mapa';
-import Footer from './Components/Footer';
 import Hero from './manual/Hero';
 import Info from './manual/Info';
-import AboutUs from './Components/Onas';
+import Przyczepy from './Components/Przyczepy';
 function App() {
   return (
     <>
@@ -18,6 +17,7 @@ function App() {
     <Oferta />
     <Mapa />
     <Info />
+    <Przyczepy />
     <Karty />
     <Cennik />
     <Kontakt />

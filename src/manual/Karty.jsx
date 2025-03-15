@@ -59,6 +59,8 @@ import img8_hobby from '../images/4hobby/img8.jpeg';
 import img9_hobby from '../images/4hobby/img9.jpeg';
 import img10_hobby from '../images/4hobby/img10.jpeg';
 
+import tools from '../images/tools.png'
+
 function Karty() {
     const swiperRefs = useRef([]);
 
@@ -78,7 +80,6 @@ function Karty() {
     return (
         <div className='karty' id='karty'>
             <div className='container'>
-                <h1 className='title'>Poznaj nasze przyczepy</h1>
                 <div className='card-container'>
                     {campers.map((camper, idx) => (
                         <div key={camper.id} className='card'>
@@ -103,6 +104,40 @@ function Karty() {
                             </div>
                         </div>
                     ))}
+                </div>
+                <div className='section-last'>
+                <div className='serwis'>
+                    <h2>Serwis przyczep kempingowych</h2>
+                    <div className="line"></div>
+                    <p>
+                    Dodatkowo oferujemy profesjonalny serwis przyczep kempingowych, aby Twój pobyt na Chałupach stał sie jeszcze bardziej
+                    komfortowy i bezproblemowy.
+                    <br />
+                    Nasze usługi obejmują:
+                    <br />
+                    <br />
+                    - <strong>Rozkładanie i składanie przedsionków</strong>
+                    <br />
+                    - <strong>Sprzedaż przedsionków i akcesoriów Isabella</strong>
+                    <br />
+                    - <strong>Podłogi na zamówienie</strong>
+                    <br />
+                    - <strong>Drobne naprawy</strong>
+                    <br />
+                    <br />
+                    Zaufaj naszemu doświadczeniu i ciesz się wakacjami bez trosk! Zapraszamy do kontaktu w celu uzyskania szczegółowych informacji.
+                    </p>
+                </div>
+                <div className='distance'>
+                        <p className='last'>  
+                            <br />
+                            - <strong>odległość do zatoki</strong> wynosi około <strong>70 metrów</strong>,  
+                            <br />
+                            - <strong>odległość do morza</strong> to około <strong>200 metrów</strong>.  
+                        </p>
+                        <img src={tools} alt='tools'></img>
+                </div>
+                    
                 </div>
             </div>
         </div>

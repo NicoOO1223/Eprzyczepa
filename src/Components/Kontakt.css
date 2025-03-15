@@ -72,7 +72,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .footer-content {
       flex-direction: column;
       text-align: center;
@@ -95,6 +95,6 @@
 
   .contact-item {
       width: 80%;
-      max-width: 300px;
+      max-width: 500px;
   }
 }
