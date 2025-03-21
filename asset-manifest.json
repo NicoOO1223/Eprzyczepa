@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Eprzyczepa/static/css/main.72ab12e0.css",
-    "main.js": "/Eprzyczepa/static/js/main.b828b4c9.js",
+    "main.css": "/Eprzyczepa/static/css/main.ed3ac9b7.css",
+    "main.js": "/Eprzyczepa/static/js/main.dd1f3868.js",
     "static/media/img2.JPG": "/Eprzyczepa/static/media/img2.caf883cf47f209826297.JPG",
     "static/media/img1.JPG": "/Eprzyczepa/static/media/img1.0e3e4b8033888299df02.JPG",
     "static/media/img3.JPG": "/Eprzyczepa/static/media/img3.69796a9d66e5e9852012.JPG",
@@ -23,7 +23,6 @@
     "static/media/img11.JPG": "/Eprzyczepa/static/media/img11.e655f84eb1bf106f8500.JPG",
     "static/media/img4.JPG": "/Eprzyczepa/static/media/img4.5dab9f8a7d0a6e41ceb1.JPG",
     "static/media/img6.JPG": "/Eprzyczepa/static/media/img6.658021f9a2e6815f2309.JPG",
-    "static/media/Logo.png": "/Eprzyczepa/static/media/Logo.4373361fad11395c2914.png",
     "static/media/img13.JPG": "/Eprzyczepa/static/media/img13.de099edeb80083141a18.JPG",
     "static/media/img12.JPG": "/Eprzyczepa/static/media/img12.8b0d37477b10fbaa43a1.JPG",
     "static/media/2b.jpg": "/Eprzyczepa/static/media/2b.e1cf64d4356515ad1018.jpg",
@@ -38,12 +37,13 @@
     "static/media/img12.jpeg": "/Eprzyczepa/static/media/img12.423972e3089a2019a9d7.jpeg",
     "static/media/img14.jpg": "/Eprzyczepa/static/media/img14.8005f49cbc63120b0129.jpg",
     "static/media/coast-blacked.jpg": "/Eprzyczepa/static/media/coast-blacked.6ef2824f47c2b07ea8a5.jpg",
+    "static/media/Logo_wbg.png": "/Eprzyczepa/static/media/Logo_wbg.68911c2975acc43deb0b.png",
     "index.html": "/Eprzyczepa/index.html",
-    "main.72ab12e0.css.map": "/Eprzyczepa/static/css/main.72ab12e0.css.map",
-    "main.b828b4c9.js.map": "/Eprzyczepa/static/js/main.b828b4c9.js.map"
+    "main.ed3ac9b7.css.map": "/Eprzyczepa/static/css/main.ed3ac9b7.css.map",
+    "main.dd1f3868.js.map": "/Eprzyczepa/static/js/main.dd1f3868.js.map"
   },
   "entrypoints": [
-    "static/css/main.72ab12e0.css",
-    "static/js/main.b828b4c9.js"
+    "static/css/main.ed3ac9b7.css",
+    "static/js/main.dd1f3868.js"
   ]
 }
