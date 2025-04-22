@@ -15,6 +15,17 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.containerl {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(251, 245, 236);
+    width: 95%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
 .title {
     font-weight: 600;
     color: #333;
@@ -56,7 +67,7 @@
    margin: 0 auto;
    padding-top: 40px;
    z-index: 20;
-    margin-top: -150px;
+    margin-top: -100px;
    
 }
 
@@ -136,15 +147,22 @@
     font-size: 30px;
 }
 
-.section-last {
-    display: flex;
-}
+.section-last
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: rgb(43, 43, 43);
+    }
 .serwis {
-    flex: 1;
+    flex: 2;
     text-align: left;
     margin: 20px;
     margin-left: 50px;
     padding-left: 20px;
+    max-width: 600px;
+    font-size: 1rem;
+    color: #34495e;
 }
 
 .serwis h2 {
@@ -159,15 +177,21 @@
 
 .distance {
     flex: 1;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
 }
 
-.distance img {
+.tools {
     max-height: 300px;
+    margin-left: 50%;
 }
 
 .last {
-    font-weight: 300;
-    color: #333;
+    color: #34495e;
     padding: 10px;
     font-size: 1.2rem;
     font-weight: 200;
@@ -183,6 +207,12 @@
 }
 @media (max-width: 768px) {
     .section-last {
+        /* On smaller screens, align vertically */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center the items vertically */
+        text-align: center; /* Ensure text is centered */
+    }
+    .containerl {
         /* On smaller screens, align vertically */
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center the items vertically */

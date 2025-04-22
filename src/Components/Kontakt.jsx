@@ -22,6 +22,7 @@ function Kontakt() {
               <p><strong>Telefon:</strong> +48 602 156 630</p>
             </div>
           </div>
+          <p className='signature'>made by NW & JSK</p>
         </div>
 
       </div>

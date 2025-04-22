@@ -9,6 +9,8 @@ import Mapa from './manual/mapa';
 import Hero from './manual/Hero';
 import Info from './manual/Info';
 import Przyczepy from './Components/Przyczepy';
+import Serwis from './manual/Serwis';
+
 function App() {
   return (
     <>
@@ -16,10 +18,11 @@ function App() {
     <Hero />
     <Oferta />
     <Mapa />
-    <Info />
     <Przyczepy />
     <Karty />
+    <Info />
     <Cennik />
+    <Serwis />
     <Kontakt />
     </>
   )

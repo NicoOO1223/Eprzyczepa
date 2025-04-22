@@ -9,7 +9,7 @@ function Przyczepy() {
         {/* First Section - Image with First h2 and p */}
         <div className="section-2">
             <div className="about-text">
-                <h2 className="przyczepy-info">Poznaj nasze przyczepy</h2>
+                <h2>Poznaj nasze przyczepy</h2>
                 <div className='line'></div>
                 <p>
                 Posiadamy 4 przyczepy kempingowe, wszystkie zlokalizowane obok siebie,
@@ -34,7 +34,7 @@ function Przyczepy() {
             </div>
             <div className="about2-image">
                 <img
-                src={`${process.env.PUBLIC_URL}/images/trailer.jpg`}
+                src={`${process.env.PUBLIC_URL}/images/przyczepy.jpeg`}
                 alt="Przyczepy Kempingowe"
                 />
             </div>

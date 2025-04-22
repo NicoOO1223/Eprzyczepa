@@ -71,6 +71,14 @@
   border-radius: 20px;
 }
 
+.signature {
+  text-align: right;
+  margin: 10px 130px 0 0;
+  color: #393939;
+  font-style: italic;
+  font-weight: 100;
+}
+
 /* Responsive Design */
 @media (max-width: 1000px) {
   .footer-content {
@@ -96,5 +104,9 @@
   .contact-item {
       width: 80%;
       max-width: 500px;
+  }
+
+  .signature {
+    margin-right: 18%;
   }
 }

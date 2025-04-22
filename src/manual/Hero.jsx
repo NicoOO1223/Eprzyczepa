@@ -10,7 +10,7 @@ function Front() {
   };
   return (
     <section className='section' id="hero"> 
-    <h1>Zarezerwuj swoja przyczepe!</h1>
+    <h1></h1>
         <div className="cta" onClick={() => scrollToSection('karty')}>
           <a href="#">Zobacz nasze przyczepy →</a>
         </div>

@@ -25,7 +25,13 @@ function NavBar() {
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      if (id === 'oferta') {
+        const yOffset = -90; 
+        const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      } else {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 
